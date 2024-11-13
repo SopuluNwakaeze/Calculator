@@ -1,0 +1,53 @@
+.master-div{
+    display: flex;
+    margin: 10%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.screen-numpad-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.screen-div{
+    display: flex;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.numpad-div{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    flex:1;
+}
+
+.numpad-button{
+    flex:1;
+    margin:2%;
+}
+
+.row-div{
+    display:flex;;
+    flex:1;
+    background-color: aqua;
+}
+
+.screen-content{
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.clear-div{
+    display: flex;
+    width: 30%;
+}
+
+.clear-button{
+    margin-left: auto;
+    width: 30%;
+}

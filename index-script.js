@@ -1,3 +1,6 @@
+var fOperand;
+var sOperand;
+var operator;
 
 function add(x,y){
     return x + y;
@@ -15,7 +18,22 @@ function divide(x,y){
     return x / y;
 }
 
-console.log(add(2,4))
-console.log(subtract(2,4))
-console.log(multiply(2,4))
-console.log(divide(2,4))
+function operate(operator, x, y){
+    switch (operator){
+        case "+":
+            add(x,y);
+            break;
+
+        case "-":
+            subtract(x,y);
+            break;
+
+        case "x":
+            multiply(x,y);
+            break;
+
+        case "/":
+            divide(x,y);
+            break;     
+    }
+}
