@@ -3,13 +3,23 @@
     margin: 10%;
     align-items: center;
     flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 800px;
+    min-width: 400px;
+    background-color:dimgray;
 }
 
 .screen-numpad-div{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 30%;
+    width: 90%;
+    padding-top:5%;
+    height: 60%;
+    flex-grow: 2;
+
+
 }
 
 .screen-div{
@@ -17,6 +27,8 @@
     border-width: 2px;
     border-color: black;
     border-style: solid;
+    height: 20%;
+    background-color: white;
 }
 
 .numpad-div{
@@ -29,25 +41,43 @@
 .numpad-button{
     flex:1;
     margin:2%;
+    background-color: darkgrey;
+    font-size: x-large;
+    min-height: 0;
+    min-width: 0;
 }
 
 .row-div{
     display:flex;;
     flex:1;
-    background-color: aqua;
 }
 
 .screen-content{
     margin-left: auto;
-    margin-bottom: auto;
+    margin-right: 1px;
+    margin-top: auto;
+    margin-bottom: 0px;
+    font-size:xx-large;
+    min-width: 0;
+    min-height: 0;
+    
 }
 
 .clear-div{
     display: flex;
-    width: 30%;
+    width: 86.2%;
+    height: 3%;
+    padding-bottom: 2%;
+    flex: 1;
 }
 
 .clear-button{
     margin-left: auto;
-    width: 30%;
+    width: 100%;
+    font-size: x-large;
+    font-weight: bold;
+    background-color:crimson;
+    min-width: 0;
+    min-height: 0;
+    
 }
